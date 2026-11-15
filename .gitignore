@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment (berisi kunci/kredensial - JANGAN di-commit)
+.env
+.env.local
+.env.*.local
+
+# Build & cache
+dist/
+.vite-cache/
+.vercel/
+
+# Database lokal (data uji di localhost)
+backend/data/
+
+# OS / editor
+.DS_Store
+*.log
+
