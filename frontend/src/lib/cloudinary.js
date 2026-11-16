@@ -43,7 +43,7 @@ export async function uploadImageToCloudinary(file, options = {}) {
   const formData = new FormData();
   formData.append('file', file);
   formData.append('upload_preset', UPLOAD_PRESET);
-  formData.append('folder', options.folder || 'smpn2-muting/berita');
+  formData.append('folder', options.folder || 'smpn2_muting_unsigned');
 
   const endpoint = `https://api.cloudinary.com/v1_1/${encodeURIComponent(CLOUD_NAME)}/image/upload`;
 
